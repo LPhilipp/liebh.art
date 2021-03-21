@@ -7,9 +7,10 @@ body, html {
 }
   
 <img src="background.jpg" alt="LakeWithMountains">
-  
+ 
+
 .bgimg {
-<!--background-image: url('background.jpg');-->
+  background-image: url('/w3images/forestbridge.jpg');
   height: 100%;
   background-position: center;
   background-size: cover;
@@ -17,6 +18,18 @@ body, html {
   color: white;
   font-family: "Courier New", Courier, monospace;
   font-size: 25px;
+}
+
+.topleft {
+  position: absolute;
+  top: 0;
+  left: 16px;
+}
+
+.bottomleft {
+  position: absolute;
+  bottom: 0;
+  left: 16px;
 }
 
 .middle {
@@ -35,10 +48,16 @@ hr {
 <body>
 
 <div class="bgimg">
+  <div class="topleft">
+    <p>Logo</p>
+  </div>
   <div class="middle">
-    <h1>liebh.art</h1>
+    <h1>COMING SOON</h1>
     <hr>
-    <p>COMING SOON</p>
+    <p>36 days left</p>
+  </div>
+  <div class="bottomleft">
+    <p>Some text</p>
   </div>
 </div>
 
